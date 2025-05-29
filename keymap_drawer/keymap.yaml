@@ -1,0 +1,204 @@
+# For https://keymap-drawer.streamlit.app/
+layout: {qmk_keyboard: crkbd/rev4_0/standard, layout_name: LAYOUT_split_3x6_3_ex2}
+layers:
+  L0:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - VOL+
+  - RGUI
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - ESC
+  - A
+  - S
+  - D
+  - F
+  - G
+  - LALT
+  - RALT
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ENT
+  - LALT
+  - L1
+  - LGUI
+  - {t: SPC, h: L2}
+  - {t: BSPC, h: LCTL}
+  - RSFT
+  L1:
+  - LCTL+Q
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - MPLY
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - ''
+  - ''
+  - ''
+  - ^
+  - '&'
+  - '*'
+  - '-'
+  - '='
+  - MUTE
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - _
+  - ''
+  - ''
+  - ''
+  - _
+  - '~'
+  - '`'
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  L2:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+Sft+TAB
+  - Ctl+TAB
+  - Gui+LEFT
+  - Gui+RGHT
+  - ''
+  - DEL
+  - ''
+  - ''
+  - MS WHLL
+  - MS WHLD
+  - MS WHLU
+  - MS WHLR
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MS LEFT
+  - MS DOWN
+  - MS UP
+  - MS RGHT
+  - MS BTN1
+  - MS BTN2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  L3:
+  - QK BOOT
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - RGB TOG
+  - RGB HUI
+  - RGB SAI
+  - RGB VAI
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - VOLD
+  - VOLU
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB HUD
+  - RGB SAD
+  - RGB VAD
+  - ''
+  - ''
+  - MPLY
+  - MPRV
+  - MNXT
+  - MSTP
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+  - {l: [L0], tk: [J, K], k: ESC}
+  - {l: [L0], tk: [';', "'"], k: '`'}
+  - {l: [L0], tk: [L, ";"], k: '~'}
+  - {l: [L0], tk: ['.', "/"], k: '\'}
+  - {l: [L0], tk: ['/', ENT], k: '|'}
+  - {l: [L0], tk: [P, BSPC], k: "LALT+BSPC"}
+  - {l: [L0], tk: [R, T], k: (}
+  - {l: [L0], tk: [F, G], k: '['}
+  - {l: [L0], tk: [V, B], k: "{"}
+  - {l: [L0], tk: [Y, U], k: )}
+  - {l: [L0], tk: [H, J], k: ']'}
+  - {l: [L0], tk: [N, M], k: '}'}
